@@ -15,13 +15,13 @@ public class Student {
         this.year = year;
     }
 
-    public Student(String firstName, String lastName, int registration) {
+   /* public Student(String firstName, String lastName, int registration) {
         this(firstName, lastName, registration, 0, 1);
     }
 
     public Student(String firstName, String lastName) {
         this(firstName, lastName, 0, 0, 1);
-    }
+    }*/
     
     //Method
     

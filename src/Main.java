@@ -7,12 +7,12 @@ public class Main {
         // Create a list to store students
 
         // Create and add some initial students to the list
-        Student student1 = new Student("John", "Doe", 12345, 75, 1);
-        Student student2 = new Student("Alice", "Smith", 54321, 80, 1);
-        Student student3 = new Student("Bob", "Johnson", 3, 60, 1);
+        Student student1 = new Student("Pooja", "Tajane", 12345, 75, 1);
+        Student student2 = new Student("Mahesh", "Shinde", 12367, 80, 2);
+        Student student3 = new Student("Mayur ", "Nasre", 12378, 60, 1);
 
         
-        Course course = new Course("Java Programming", "Prof. Smith", 2023);
+        Course course = new Course("Java Programming", "Prof. Anamalai", 2023);
 
 
         course.enroll(student1);
@@ -23,8 +23,8 @@ public class Main {
         // Enroll additional students
 
         Student[] additionalStudents = {
-                new Student("Bob", "Johnson", 99999, 65, 1),
-                new Student("Eve", "Williams", 88888, 90, 1)
+                new Student("Sakshi", "Urade", 99895, 65, 2),
+                new Student("Parag", "Katekhaye", 88786, 90, 1)
         };
        
         course.enroll(additionalStudents);
